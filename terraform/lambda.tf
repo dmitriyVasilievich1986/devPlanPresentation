@@ -9,7 +9,7 @@ data "archive_file" "lambda_zip" {
     ".terraform.lock.hcl",
     "${local.lambda_name}.zip",
   ]
-  
+
   output_path = "${path.module}/${local.lambda_name}.zip"
   source_dir  = "${path.module}/lambdas"
   type        = "zip"
