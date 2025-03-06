@@ -1,3 +1,4 @@
+from datetime import datetime
 from random import randint
 import json
 
@@ -15,4 +16,9 @@ data = [
 
 
 def handler(event, context):
-    return {"statusCode": 201, "body": json.dumps({"message": "ok", "data": data})}
+    return {
+        "statusCode": 201,
+        "body": json.dumps(
+            {"message": "ok", "data": data, "timestamp": datetime.now().isoformat()}
+        ),
+    }
