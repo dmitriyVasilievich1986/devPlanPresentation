@@ -6,11 +6,7 @@ data = [
     {
         "name": "kjkjbadsda",
         "age": randint(20, 100),
-    },
-    {
-        "name": "lllkff",
-        "age": randint(20, 100),
-    },
+    }
     {
         "name": "cvvnzlknxv",
         "age": randint(20, 100),
