@@ -15,4 +15,4 @@ data = [
 
 
 def handler(event, context):
-    return {"statusCode": 200, "body": json.dumps({"message": "ok", "data": data})}
+    return {"statusCode": 201, "body": json.dumps({"message": "ok", "data": data})}
