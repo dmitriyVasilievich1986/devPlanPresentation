@@ -4,12 +4,12 @@ import json
 
 data = [
     {
-        "name": "kjkjbadsda",
-        "age": randint(20, 100),
+        "Name": "kjkjbadsda",
+        "Age": randint(20, 100),
     },
     {
-        "name": "cvvnzlknxv",
-        "age": randint(20, 100),
+        "Name": "cvvnzlknxv",
+        "Age": randint(20, 100),
     },
 ]
 
