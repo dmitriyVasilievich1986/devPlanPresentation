@@ -1,4 +1,5 @@
 terraform.tfstate*
 __pycache__
 .terraform
+.coverage
 venv
