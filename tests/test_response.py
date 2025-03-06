@@ -1,5 +1,5 @@
 import sys
-sys.path.append("/Users/dshcherbachenia/development/pet/devPlanPresentation/terraform/lambdas/")
+sys.path.append("terraform/lambdas/")
 import main
 
 
